@@ -1,0 +1,16 @@
+POST / HTTP/1.1
+Host: 127.0.0.1:8000
+User-Agent: curl/8.9.1
+Accept: */*
+Content-Length: 295
+Content-Type: multipart/form-data; boundary=------------------------s0h8ZD1eHi7W8SgLiVCyh1
+
+--------------------------s0h8ZD1eHi7W8SgLiVCyh1
+Content-Disposition: form-data; name="title"
+
+socket 테스트
+--------------------------s0h8ZD1eHi7W8SgLiVCyh1
+Content-Disposition: form-data; name="text"
+
+API test test test test test
+--------------------------s0h8ZD1eHi7W8SgLiVCyh1--
